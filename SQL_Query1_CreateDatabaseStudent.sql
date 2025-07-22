@@ -5,10 +5,10 @@ USE DB_ADMINISTRASI;
 GO
 
 CREATE TABLE Siswa (
-  ID INT PRIMARY KEY IDENTITY(1,1), -- ID unik yang otomatis bertambah
-  Nama VARCHAR(100) NOT NULL,
-  Kelas VARCHAR(20),
-  Alamat VARCHAR(255)
+    ID INT PRIMARY KEY IDENTITY(1,1), -- ID unik yang otomatis bertambah
+    Nama VARCHAR(100) NOT NULL,
+    Kelas VARCHAR(20),
+    Alamat VARCHAR(255)
 );
 GO
 
