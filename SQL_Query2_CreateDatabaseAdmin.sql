@@ -5,10 +5,10 @@ USE Admin_DB;
 GO
 
 CREATE TABLE Users (
-  ID INT PRIMARY KEY IDENTITY(1,1),
-  Username VARCHAR(50) NOT NULL UNIQUE,
-  PasswordHash VARCHAR(100) NOT NULL -- Menyimpan password yang sudah dienkripsi
-  );
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Username VARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash VARCHAR(100) NOT NULL -- Menyimpan password yang sudah dienkripsi
+    );
 GO
 
 INSERT INTO Users (Username, PasswordHash)
